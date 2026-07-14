@@ -168,6 +168,8 @@ registers without import errors.
 
 ## PR Description
 
+feat: add watchlist feature with review feedback addressed
+
 ### Overview
 
 This PR adds a **watchlist** feature to CineLog. Users can save films they plan to watch
@@ -214,6 +216,7 @@ This PR adds a **watchlist** feature to CineLog. Users can save films they plan 
 ## Commit History
 
 ```
+c338a7d docs: add pr-response.md with review responses and design decisions
 1016458 fix: sort watchlist by date added to match collection behavior
 40347ca fix: update WatchlistEntry film_id to UUID after main branch refactor
 fa7486c test: add test for nonexistent film_id in add_to_watchlist
@@ -223,4 +226,4 @@ b8993ba fix: update film retrieval method to use db.session.get in collection an
 d738c07 feat: add watchlist model and endpoint
 ```
 
-*(Screenshot of `git log --oneline origin/main..HEAD` — replace with actual screenshot for submission.)*
+![git log --oneline origin/main..HEAD](docs/git-log-screenshot.png)

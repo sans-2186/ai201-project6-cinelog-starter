@@ -216,6 +216,7 @@ This PR adds a **watchlist** feature to CineLog. Users can save films they plan 
 ## Commit History
 
 ```
+7a26a9c docs: add git log screenshot to pr-response.md
 c338a7d docs: add pr-response.md with review responses and design decisions
 1016458 fix: sort watchlist by date added to match collection behavior
 40347ca fix: update WatchlistEntry film_id to UUID after main branch refactor
